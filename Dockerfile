@@ -15,6 +15,7 @@ RUN apt-get update \
     psmisc \
     cron \
     sudo \
+    php5-imagick \
   && apt-get clean
 
 RUN docker-php-ext-configure \
