@@ -15,6 +15,7 @@ RUN apt-get update \
     psmisc \
     cron \
     sudo \
+    imagemagick \
     php5-imagick \
   && apt-get clean
 
