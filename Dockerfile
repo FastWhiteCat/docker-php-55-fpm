@@ -15,8 +15,7 @@ RUN apt-get update \
     psmisc \
     cron \
     sudo \
-    imagemagick \
-    php5-imagick \
+    libmagickwand-dev \
   && apt-get clean
 
 RUN docker-php-ext-configure \
